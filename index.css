@@ -83,6 +83,10 @@ h2 {
     font-size: 2.5rem;
 }
 
+p.font {
+    font-family: 'Hedvig Letters Sans', sans-serif;
+}
+
 .sobre p {
     font-size: 1.25rem;
     padding-right: 1.25rem;
@@ -118,7 +122,6 @@ h2 {
 
 .courses-section {
     padding-bottom: 8rem;
-    text-align: center;
 }
 
 .cards {
@@ -135,7 +138,21 @@ h2 {
     border: 2px solid var(--color-black);
     box-shadow: 4px 4px 0 var(--color-black);
     max-width: 17rem;
-    padding: 2rem 0 0 2rem;
+    padding: 2rem 2rem 0 2rem; 
+    margin-bottom: 2rem;
+    box-sizing: border-box;
+}
+
+.skill-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4rem 0;
+    padding: 2rem;
+}
+
+.column {
+    flex: 1;
 }
 
 .courses-column {
@@ -193,6 +210,14 @@ footer nav a {
     margin-bottom: 2rem;
 }
 
+.ml-2 {
+    margin-left: 2rem;
+}
+
+.mr-2 {
+    margin-right: 2rem;
+}
+
 .mx-auto {
     margin-left: auto;
     margin-right: auto;
@@ -240,10 +265,18 @@ footer nav a {
 }
 
 @media screen and (min-width: 72rem) {
-    h1, 
-    h2 {
+    h1 {
         font-size: 4rem;
     }
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+
     .container {
         display: flex;
         align-items: center;
