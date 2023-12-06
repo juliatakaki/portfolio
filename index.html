@@ -1,95 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Portifólio - Júlia Takaki</title>
-    
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        
-        <link rel="stylesheet" href="index.css">
-        
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap" rel="styles">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio - Júlia Takaki</title>
 
-    <body>
-        <header>
-            <div class="container">
-                <nav>
-                    <a href="#">Início</a>
-                    <a href="#">Contato</a>
-                </nav>
-            </div>
-        </header>
-        <main>
-            <section class="hero-section">
-                <div class="container row-reverse">
-                    <img src="img/J.jpg" alt="fotojulia">
-                    <div>
-                        <h1 class="mt-2">Conheça mais sobre quem é <span class="text-primary decoration">Júlia Takaki</span></h1>
-                        <p class="mt-2 mb-2">Saiba os motivos que me colocam à frente dos demais.</p>
-                        <a href="#" class="button">Saiba mais</a>
-                </div>
-                </div>
-            </section>
-            <section class="courses-section">
-                <div class="cards">
-                    <article class="card">
-                        <strong>Cargo atual</strong>
-                        <p>Sou estudante do curso de Engenharia de Software na Universidade de Brasília (UnB).</p>
-                        <a href="#">
-                            <img src="img/arrow-right.svg" alt="ir para contato">
-                        </a>
-                    </article>
-                    <article class="card">
-                        <strong>Cursos</strong>
-                        <p>Realizo cursos profissionalizantes com frequência, buscando sempre aprimorar meus conhecimentos e expandir os meus horizontes.</p>
-                        <a href="#">
-                            <img src="img/arrow-right.svg" alt="ir para contato">
-                        </a>
-                    </article>
-                    <article class="card">
-                        <strong>Experiência</strong>
-                        <p>Fui monitora de duas matérias (Cálculo 1 e Probabilidade e Estatística) durante todo o período do curso que era possível admitir o cargo.</p>
-                        <a href="#">
-                            <img src="img/arrow-right.svg" alt="ir para contato">
-                        </a>
-                    </article>
-                    <article class="card">
-                        <strong>Software ao longo da vida</strong>
-                        <p>Mantenho contato com códigos desde que me interessei, aos 14 anos. Desde então me dedico ao universo Dev.</p>
-                        <a href="#">
-                            <img src="img/arrow-right.svg" alt="ir para contato">
-                        </a>
-                    </article>
-                </div>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
+    <link rel="stylesheet" href="index.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap" rel="styles">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <a href="#sobre">Sobre</a>
+                <a href="#contato">Contato</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="sobre">
+            <div class="container row-reverse">
+                <img src="img/J.jpg" alt="fotojulia">
                 <div>
-                    <h2 class="text-center">Mas, qual o meu <span class="text-primary">diferencial</span>?</h2>
-                    <p class="text-center">Além de procurar sempre estar à par de novas tecnologias, atitude que acredito ser primordial para qualquer um da área de computação,
-                        me comprometo ao máximo com qualquer compromisso que assumo. Falando em conhecimentos técnicos, o meu objetivo sempre foi abranger o
-                        máximo possível em meus conhecimentos, para que seja crítica o suficiente em qualquer cargo que eu possa vir a exercer. Para conhecer
-                        mais sobre os cursos que já concluí, clique no botão abaixo.
-                    </p>
-                    <a href="#" class="button mt-2 mx-auto">Cursos que já concluí</a>
+                    <h1 class="mt-2">Conheça mais sobre quem é <span class="text-primary decoration">Júlia Takaki</span>
+                    </h1>
+                    <p class="mt-2 mb-2">Saiba os motivos que me colocam à frente dos demais.</p>
+                    <a href="#cards" class="button">Saiba mais</a>
                 </div>
-                
-            </section>
-        </main>
-
-        <footer>
-            <div class="container">
-                <div class="about-column">
-                    <p class="mb-2">Abra seus horizontes, assim como eu abro os meus. Entre em contato comigo e não se arrependerá.</p>
-                </div>
-                <nav class="mb-2">
-                    <a href="#">Início</a>
-                    <a href="#">Contato</a>
-                </nav>
             </div>
-        </footer>
-    </body>
+        </section>
+        <section class="courses-section">
+            <div class="cards">
+                <article class="card">
+                    <strong>Cargo atual</strong>
+                    <p>Sou estudante do curso de Engenharia de Software na Universidade de Brasília (UnB).</p>
+                    <a href="#cargo-atual">
+                        <img src="img/arrow-right.svg" alt="ir para contato">
+                    </a>
+                </article>
+                <article class="card">
+                    <strong>Cursos</strong>
+                    <p>Realizo cursos profissionalizantes com frequência, buscando sempre aprimorar meus conhecimentos e
+                        expandir os meus horizontes.</p>
+                    <a href="#cursos">
+                        <img src="img/arrow-right.svg" alt="ir para contato">
+                    </a>
+                </article>
+                <article class="card">
+                    <strong>Experiência</strong>
+                    <p>Fui monitora de duas matérias (Cálculo 1 e Probabilidade e Estatística) durante todo o período do
+                        curso que era possível admitir o cargo.</p>
+                    <a href="#experiencia">
+                        <img src="img/arrow-right.svg" alt="ir para contato">
+                    </a>
+                </article>
+                <article class="card">
+                    <strong>Software ao longo da vida</strong>
+                    <p>Mantenho contato com códigos desde que me interessei, aos 14 anos. Desde então me dedico ao
+                        universo Dev.</p>
+                    <a href="#software-ao-longo-da-vida">
+                        <img src="img/arrow-right.svg" alt="ir para contato">
+                    </a>
+                </article>
+            </div>
+
+            <div>
+                <h2 class="text-center">Mas, qual o meu <span class="text-primary">diferencial</span>?</h2>
+                <p class="text-center">Além de procurar sempre estar à par de novas tecnologias, atitude que acredito
+                    ser primordial para qualquer um da área de computação,
+                    me comprometo ao máximo com qualquer compromisso que assumo. Falando em conhecimentos técnicos, o
+                    meu objetivo sempre foi abranger o
+                    máximo possível em meus conhecimentos, para que seja crítica o suficiente em qualquer cargo que eu
+                    possa vir a exercer. Para conhecer
+                    mais sobre os cursos que já concluí, clique no botão abaixo.
+                </p>
+                <a href="#cursos-que-ja-conclui" class="button mt-2 mx-auto">Cursos que já concluí</a>
+            </div>
+            <h4 class="mt-2 mb-2"><strong>Programação</strong></p>
+                <h4 class="mt-2 mb-2"><strong>Design</strong></p>
+                    <h4 class="mt-2 mb-2"><strong>Gestão</strong></p>
+        </section>
+        <section class="projetos">
+            <div class="container row-reverse">
+                <div>
+                    <h2 class="mt-2 text-center">Meus Projetos</h2>
+                    <p class="mt-2 mb-2 text-center">Conheça sobre os projetos que já desenvolvi.</p>
+                    <a href="#projetos" class="button text-center mx-auto">Saiba mais</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container text-center mt-2">
+            <img src="img/email" alt="email">
+            <img src="img/linkedin" alt="linkedin">
+            <img src="img/github" alt="github">
+        </div>
+    </footer>
+</body>
+
 </html>

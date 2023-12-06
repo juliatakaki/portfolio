@@ -18,7 +18,7 @@ body {
 }
 
 header,
-.hero-section,
+.sobre,
 .courses-section,
 footer {
     border-color: var(--color-black);
@@ -63,12 +63,12 @@ header nav a:nth-child(2n-1) {
     text-transform: uppercase;
 }
 
-.hero-section {
+.sobre {
     padding-right: 0;
     padding-bottom: 16rem;
 }
 
-.hero-section img {
+.sobre img {
     display: block;
     margin: 1.25rem 0 0 auto;
     max-width: 100%;
@@ -83,16 +83,16 @@ h2 {
     font-size: 2.5rem;
 }
 
-.hero-section p {
+.sobre p {
     font-size: 1.25rem;
     padding-right: 1.25rem;
 }
 
-.hero-section .button {
+.sobre .button {
     position: relative;
 }
 
-.hero-section .button::after {
+.sobre .button::after {
     content: '';
     background: url("img/arrow-curve.svg");
     position: absolute;
@@ -118,6 +118,7 @@ h2 {
 
 .courses-section {
     padding-bottom: 8rem;
+    text-align: center;
 }
 
 .cards {
@@ -135,6 +136,16 @@ h2 {
     box-shadow: 4px 4px 0 var(--color-black);
     max-width: 17rem;
     padding: 2rem 0 0 2rem;
+}
+
+.courses-column {
+    column-count: 3;
+    column-gap: 1rem;
+    margin-top: 2rem;
+}
+
+.courses-column h4 {
+    margin-top: 0;
 }
 
 .card:nth-child(2n) {
@@ -236,6 +247,7 @@ footer nav a {
     .container {
         display: flex;
         align-items: center;
+        justify-content: center;
         margin: 0 auto;
         max-width: 72rem;
     }
@@ -244,11 +256,11 @@ footer nav a {
         flex-direction: row-reverse;
     }
 
-    .about-column {
+    .frase-destaque {
         flex: 2;
     }
 
-    .about-column p {
+    .frase-destaque p {
         font-size: 1.25rem;
         max-width: 16rem;
     }
