@@ -13,8 +13,9 @@
 }
 
 body {
-    background: linear-gradient(90deg, #ffe7d1 0%, #fff2e6 100%);
+    background: linear-gradient(90deg, #ed4d1b -700%, #ffe7d1 100%);
     padding: 0 1rem;
+    font-family: 'Hedvig Letters Sans', sans-serif;
 }
 
 header,
@@ -153,6 +154,39 @@ p.font {
 
 .column {
     flex: 1;
+}
+
+.column.programacao {
+    margin-left: 2rem;
+    text-align: left;
+}
+
+.column.design {
+    margin: 0 auto;
+    max-width: 20rem;
+    text-align: left;
+}
+
+.column.gestao {
+    margin: 0 auto 0 0;
+    text-align: left;
+}
+
+.column.proj1 {
+    margin-left: 2rem;
+    max-width: 20rem;
+    text-align: left;
+}
+
+.column.proj2 {
+    margin: 0 auto;
+    max-width: 20rem;
+    text-align: left;
+}
+
+.column.proj3 {
+    margin: 0 auto 0 0;
+    text-align: left;
 }
 
 .courses-column {
