@@ -12,6 +12,16 @@
     --color-white: #fff;
 }
 
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background: #ed4d1b;
+    border-bottom: 1px solid #ddd;
+}
+
 body {
     background: linear-gradient(90deg, #ed4d1b -700%, #ffe7d1 100%);
     padding: 0 1rem;
