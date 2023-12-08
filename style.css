@@ -20,7 +20,8 @@ header {
     z-index: 1000;
     margin-left: 1rem;
     margin-right: 1rem;
-    background: #ed4d1b;
+    background: #fcd2abf1;
+    ;
     border-bottom: 1px solid #ddd;
 }
 
@@ -159,49 +160,25 @@ p.font {
 .skill-container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    margin: 4rem 0;
-    padding: 2rem;
+    margin-top: 20px;
 }
 
 .column {
     flex: 1;
+    margin: 0 10px;
+
 }
 
-.column.programacao {
-    margin-left: 2rem;
-    text-align: left;
-    max-width: 20rem;
+.programacao, .design, .gestao, .proj1, .proj2, .proj3 {
+    background-color: #fcd2abf1;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 4rem;
 }
 
-.column.design {
-    margin: 0 auto;
-    max-width: 20rem;
-    text-align: left;
-}
-
-.column.gestao {
-    margin: 0 auto 0 0;
-    text-align: left;
-    max-width: 20rem;
-}
-
-.column.proj1 {
-    margin-left: 2rem;
-    max-width: 20rem;
-    text-align: left;
-}
-
-.column.proj2 {
-    margin: 0 auto;
-    max-width: 20rem;
-    text-align: left;
-}
-
-.column.proj3 {
-    margin: 0 auto 0 0;
-    max-width: 20rem;
-    text-align: left;
+.column ul {
+    list-style-type: none;
+    padding: 0;
 }
 
 .courses-column {
@@ -290,20 +267,25 @@ footer nav a {
 
 /* Responsividade */
 
-@media screen and (min-width: 40rem) {
-    header nav{
-        display: block;
-        text-align: center;
+@media screen and (max-width: 40rem) {
+    .programacao,
+    .design,
+    .gestao,
+    .proj1,
+    .proj2,
+    .proj3 {
+        width: 100%;
+        margin-top: 1.25rem;
     }
 
-    .cards {
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
+    .skill-container {
+        flex-direction: column;
+        align-items: center;
     }
 
-    .card:nth-child(2n) {
-        margin-top: 1rem;
+    .column {
+        flex: 1;
+        margin: 0;
     }
 }
 
