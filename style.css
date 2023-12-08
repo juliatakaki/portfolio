@@ -32,7 +32,7 @@ header {
 body {
     background: linear-gradient(90deg, #ed4d1b -700%, #ffe7d1 100%);
     padding: 0 1rem;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 header,
@@ -296,8 +296,8 @@ footer nav a {
 @media screen and (max-width: 48rem) {
     header {
         width: 100%;
-        margin-left: 0;
-        margin-right: 0;
+        margin-left: 1rem;
+        width: calc(100% - 2rem);
     }
 
     header nav {
