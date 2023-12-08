@@ -267,25 +267,21 @@ footer nav a {
 
 /* Responsividade */
 
-@media screen and (max-width: 40rem) {
-    .programacao,
-    .design,
-    .gestao,
-    .proj1,
-    .proj2,
-    .proj3 {
-        width: 100%;
-        margin-top: 1.25rem;
+@media screen and (min-width: 40rem) {
+    header nav{
+        display: block;
+        text-align: center;
     }
 
+    .cards,
     .skill-container {
-        flex-direction: column;
-        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
-    .column {
-        flex: 1;
-        margin: 0;
+    .card:nth-child(2n) {
+        margin-top: 1rem;
     }
 }
 
