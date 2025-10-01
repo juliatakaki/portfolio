@@ -8,154 +8,127 @@
     <title>Portfólio - Júlia Takaki</title>
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" />
-
     <link rel="stylesheet" href="style.css">
-
-    </head>
+</head>
 
 <body>
     <header>
         <div class="container">
             <nav>
                 <a href="#sobre">Sobre</a>
-                <a href="#cursos">Cursos</a>
+                <a href="#formacao">Formação</a>
+                <a href="#competencias">Competências</a>
                 <a href="#projetos">Projetos</a>
-                <a href="#footer">Contato</a>
+                <a href="#contato">Contato</a>
             </nav>
         </div>
     </header>
+
     <main>
-        <section class="sobre">
-            <div href="#sobre" id="sobre" class="container row-reverse">
-                <img src="img/J.svg" alt="fotojulia" style="margin-top: 100px;">
+        <section id="sobre" class="sobre">
+            <div class="container row-reverse">
+                <img src="img/J.svg" alt="Logo J" style="margin-top: 100px;">
                 <div>
-                    <h1 class="mt-2">Conheça mais sobre quem é <span class="text-primary decoration">Júlia Takaki</span>
-                    </h1>
-                    <p class="mt-2 mb-2">Saiba os motivos que me colocam à frente dos demais.</p>
-                    <a href="#cards" id="cards" class="button" id="sobre">Saiba mais</a>
+                    <h1 class="mt-2">Júlia Takaki</h1>
+                    <p class="subtitle">Estudante de Engenharia de Software</p>
+                    <p class="mt-2 mb-2">Desenvolvedora em formação pela Universidade de Brasília (UnB ), com paixão por tecnologia desde os 14 anos. Busco oportunidades para aplicar meus conhecimentos em programação, design e gestão para criar soluções inovadoras.</p>
+                    <a href="#projetos" class="button">Meus Projetos</a>
                 </div>
             </div>
         </section>
-        <section class="courses-section">
+
+        <section id="formacao" class="courses-section">
+            <h2 class="text-center">Formação e Experiência</h2>
             <div class="cards">
                 <article class="card">
-                    <strong>Cargo atual</strong>
-                    <p>Sou estudante do curso de Engenharia de Software na Universidade de Brasília (UnB).</p>
-                    <a href="#cargo-atual">
-                        <img src="img/arrow-right.svg" alt="ir para contato">
-                    </a>
+                    <strong>Engenharia de Software</strong>
+                    <p>Graduanda na Universidade de Brasília (UnB), onde desenvolvo uma base sólida em desenvolvimento, arquitetura e gestão de software.</p>
                 </article>
                 <article class="card">
-                    <strong>Cursos</strong>
-                    <p>Realizo cursos profissionalizantes com frequência, buscando sempre aprimorar meus conhecimentos e
-                        expandir os meus horizontes.</p>
-                    <a href="#cursos">
-                        <img src="img/arrow-right.svg" alt="ir para contato">
-                    </a>
+                    <strong>Monitoria Acadêmica</strong>
+                    <p>Atuei como monitora nas disciplinas de Cálculo 1 e Probabilidade e Estatística, aprimorando minhas habilidades de comunicação e liderança.</p>
                 </article>
                 <article class="card">
-                    <strong>Experiência</strong>
-                    <p>Fui monitora (de Cálculo 1 e Probabilidade e Estatística) durante o curso.
-                        Além disso, tenho prévio conhecimento em C, JavaScript, Python, C++ e Java.</p>
-                    <a href="#experiencia">
-                        <img src="img/arrow-right.svg" alt="ir para contato">
-                    </a>
-                </article>
-                <article class="card">
-                    <strong>Software ao longo da vida</strong>
-                    <p>Mantenho contato com códigos desde que me interessei, aos 14 anos. Desde então me dedico ao
-                        universo Dev.</p>
-                    <a href="#software-ao-longo-da-vida">
-                        <img id="cursos" src="img/arrow-right.svg" alt="ir para contato">
-                    </a>
+                    <strong>Aprendizado Contínuo</strong>
+                    <p>Realizo cursos profissionalizantes com frequência para aprimorar meus conhecimentos e expandir meus horizontes na área de tecnologia.</p>
                 </article>
             </div>
-            <div>
-                <h2 class="text-center mb-1">Mas, qual o meu <span class="text-primary">diferencial</span>?</h2>
-                <p class="text-center ml-2 mr-2">Além de procurar sempre estar à par de novas tecnologias, atitude que acredito
-                    ser primordial para qualquer um da área de computação,
-                    me comprometo ao máximo com qualquer compromisso que assumo. Falando em conhecimentos técnicos, o
-                    meu objetivo sempre foi abranger o
-                    máximo possível em meus conhecimentos, para que seja crítica o suficiente em qualquer cargo que eu
-                    possa vir a exercer. Para conhecer
-                    mais sobre os cursos que já concluí, clique no botão abaixo.
-                </p>
-                <a href="#cursos" class="button mt-2 mx-auto">Cursos realizados</a>
-            </div>
-            <div class="skill-container">
+        </section>
+
+        <section id="competencias" class="skills-section">
+            <h2 class="text-center mb-1">Principais Competências</h2>
+            <p class="text-center ml-2 mr-2">Com um perfil multidisciplinar, busco abranger o máximo de conhecimento para atuar de forma crítica e eficiente em diferentes desafios. Minhas habilidades se dividem em três grandes áreas:</p>
+            
+            <div class="skill-container mt-2">
                 <div class="column programacao">
-                    <h4 class="mt-1 mb-2 ml-2 text-center"><strong>Programação</strong></h4>
+                    <h4 class="mt-1 mb-2 text-center"><strong>Programação</strong></h4>
                     <ul class="ml-2 mb-1">
+                        <li>Python (Data Science, IA)</li>
+                        <li>JavaScript</li>
+                        <li>Java & C/C++</li>
                         <li>Power BI</li>
-                        <li>Python</li>
-                        <li>Inteligência Artificial</li>
-                        <li>Fundamentos de codificação</li>
-                        <li>Data Science</li>
-                        <li>Oficina de R</li>
+                        <li>Análise de Dados com R</li>
                     </ul>
-                </div>            
+                </div>
                 <div class="column design">
                     <h4 class="mt-1 mb-2 text-center"><strong>Design</strong></h4>
                     <ul class="ml-2">
-                        <li>UX Design</li>
+                        <li>UX/UI Design</li>
                         <li>UX Research</li>
-                        <li>UX/UI</li>
-                        <li id="projetos">Design Thinking</li>
+                        <li>Design Thinking</li>
+                        <li>Prototipação de Interfaces</li>
                     </ul>
                 </div>
                 <div class="column gestao">
-                    <h4 class="mt-1 mb-2 mr-2 text-center"><strong>Gestão</strong></h4>
+                    <h4 class="mt-1 mb-2 text-center"><strong>Gestão</strong></h4>
                     <ul class="ml-2">
-                        <li>Gestão de projetos</li>
-                        <li>Gestão de pessoas</li>
+                        <li>Gestão de Projetos</li>
+                        <li>Metodologias Ágeis</li>
+                        <li>Gestão de Pessoas</li>
+                        <li>Liderança</li>
                     </ul>
                 </div>
             </div>
-            <div>
-                <h2 class="mt-2 mb-1 text-center">Meus Projetos</h2>
-                <p class="text-center ml-2 mr-2">Conheça alguns dos projetos que já desenvolvi clicando no botão abaixo. Para saber sobre mais projetos que fiz, acesse meu Github,
-                    o link está disponível na seção de contato, ao final da página, ou na barra de navegação, no topo da página.
-                </p>
-                <a href="#projetos" class="button mt-2 mx-auto">Projetos trabalhados</a>
-            </div>
-            <div class="skill-container">
+        </section>
+
+        <section id="projetos" class="projects-section">
+            <h2 class="mt-2 mb-1 text-center">Meus Projetos</h2>
+            <p class="text-center ml-2 mr-2">A seguir, alguns dos projetos que desenvolvi. Para ver mais, acesse meu GitHub através dos links no rodapé.</p>
+            
+            <div class="skill-container mt-2">
                 <div class="column proj1">
-                    <h4 class="mt-1 mb-2 ml-2 text-center"><strong>Python e Power BI</strong></h4>
+                    <h4 class="mt-1 mb-2 text-center"><strong>Análise de Dados com Python e Power BI</strong></h4>
                     <ul class="ml-2 mr-2 mb-1">
-                        <li>
-                            Na integração entre planilhas Jupyter e esquemas no Microsoft Power BI, explorei análises dinâmicas e interativas, combinando a flexibilidade do Jupyter
-                            com a robustez visual do Power BI.
-                            Essa abordagem direta permitiu interpretar dados em tempo real, destacando a eficácia da integração e a geração eficiente de insights valiosos.</li>
+                        <li>Explorei a integração entre notebooks Jupyter e dashboards no Power BI para criar análises dinâmicas e interativas, combinando a flexibilidade do código com a robustez visual da ferramenta.</li>
                     </ul>
                 </div>
                 <div class="column proj2">
-                    <h4 class="mt-1 mb-2 text-center"><strong>UX/UI Design</strong></h4>
+                    <h4 class="mt-1 mb-2 text-center"><strong>Projetos de UX/UI Design</strong></h4>
                     <ul class="ml-2 mr-2">
-                        <li>Em meu percurso em UX/UI design, desenvolvi habilidades na harmonização de estética e funcionalidade, criando interfaces que não apenas agradam visualmente,
-                            mas também proporcionam experiências intuitivas e cativantes para os usuários.</li>
+                        <li>Desenvolvi interfaces focadas na experiência do usuário, harmonizando estética e funcionalidade para criar produtos digitais intuitivos e cativantes, desde a pesquisa inicial até a prototipação.</li>
                     </ul>
                 </div>
                 <div class="column proj3">
-                    <h4 class="mt-1 mb-2 mr-2 text-center"><strong>Gestão de projetos</strong></h4>
+                    <h4 class="mt-1 mb-2 text-center"><strong>Liderança em Projetos Acadêmicos</strong></h4>
                     <ul class="ml-2 mr-2">
-                        <li>Na gestão de projetos, aprimorei minhas soft skills como liderança, planejamento estratégico e coordenação eficiente de equipes. A aplicação de metodologias
-                            e ferramentas fortaleceu minha capacidade de superar desafios, assegurando resultados eficazes em todas as fases do ciclo de vida do projeto.</li>
+                        <li>Apliquei conceitos de gestão de projetos em trabalhos acadêmicos, utilizando planejamento estratégico e coordenação de equipes para garantir a entrega de resultados eficazes dentro dos prazos.</li>
                     </ul>
                 </div>
             </div>
         </section>
     </main>
-    <footer id="footer">
+
+    <footer id="contato">
         <div>
-            <h3 class="mt-1 mb-1 text-center">Entre em contato</h3>
-            <p class="text-center"><span class="text-primary"><strong>@: </strong></span> julia.takaki@gmail.com</p>
+            <h3 class="mt-1 mb-1 text-center">Entre em Contato</h3>
+            <p class="text-center"><span class="text-primary"><strong>E-mail:</strong></span> julia.takaki@gmail.com</p>
         </div>
         <div class="container text-center mt-2">
             <a href="https://www.linkedin.com/in/juliatakaki/" target="_blank">
-                <img class="mt-1 ml-1 mr-1" src="img/linkedin.svg" alt="linkedin">
+                <img class="mt-1 ml-1 mr-1" src="img/linkedin.svg" alt="LinkedIn">
             </a>
             <a href="https://github.com/juliatakaki" target="_blank">
-                <img class="mt-1 ml-1 mr-1" src="img/github.svg" alt="github"> 
+                <img class="mt-1 ml-1 mr-1" src="img/github.svg" alt="GitHub">
             </a>
         </div>
     </footer>
