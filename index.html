@@ -1,137 +1,176 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio - Júlia Takaki</title>
-
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" />
+    <title>Júlia Takaki | Desenvolvedora de Software</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+
     <header>
-        <div class="container">
-            <nav>
-                <a href="#sobre">Sobre</a>
-                <a href="#formacao">Formação</a>
-                <a href="#competencias">Competências</a>
-                <a href="#projetos">Projetos</a>
-                <a href="#contato">Contato</a>
-            </nav>
-        </div>
+        <nav class="navbar">
+            <div class="nav-logo">Júlia Takaki</div>
+            <div class="nav-links">
+                <a href="#about">Sobre</a>
+                <a href="#experience">Experiência</a>
+                <a href="#skills">Competências</a>
+                <a href="#education">Formação</a>
+                <a href="#contact">Contato</a>
+            </div>
+        </nav>
     </header>
 
     <main>
-        <section id="sobre" class="sobre">
-            <div class="container row-reverse">
-                <img src="img/J.svg" alt="Logo J" style="margin-top: 100px;">
-                <div>
-                    <h1 class="mt-2">Júlia Takaki</h1>
-                    <p class="subtitle">Estudante de Engenharia de Software</p>
-                    <p class="mt-2 mb-2">Desenvolvedora em formação pela Universidade de Brasília (UnB ), com paixão por tecnologia desde os 14 anos. Busco oportunidades para aplicar meus conhecimentos em programação, design e gestão para criar soluções inovadoras.</p>
-                    <a href="#projetos" class="button">Meus Projetos</a>
+        <section id="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">Júlia Takaki</h1>
+                <p class="hero-subtitle">Desenvolvedora de Software | Full-Stack | UX/UI Enthusiast</p>
+                <p class="hero-description">
+                    Construindo soluções que unem tecnologia e experiência do usuário, com foco em desenvolvimento Java, Angular e Python.
+                </p>
+                <div class="hero-buttons">
+                    <a href="https://github.com/juliatakaki" target="_blank" class="btn btn-primary">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                    <a href="https://www.linkedin.com/in/juliatakaki/" target="_blank" class="btn btn-secondary">
+                        <i class="fab fa-linkedin"></i> LinkedIn
+                    </a>
                 </div>
             </div>
         </section>
 
-        <section id="formacao" class="courses-section">
-            <h2 class="text-center">Formação e Experiência</h2>
-            <div class="cards">
-                <article class="card">
-                    <strong>Engenharia de Software</strong>
-                    <p>Graduanda na Universidade de Brasília (UnB), onde desenvolvo uma base sólida em desenvolvimento, arquitetura e gestão de software.</p>
-                </article>
-                <article class="card">
-                    <strong>Monitoria Acadêmica</strong>
-                    <p>Atuei como monitora nas disciplinas de Cálculo 1 e Probabilidade e Estatística, aprimorando minhas habilidades de comunicação e liderança.</p>
-                </article>
-                <article class="card">
-                    <strong>Aprendizado Contínuo</strong>
-                    <p>Realizo cursos profissionalizantes com frequência para aprimorar meus conhecimentos e expandir meus horizontes na área de tecnologia.</p>
-                </article>
+        <section id="about" class="container">
+            <h2 class="section-title">Sobre Mim</h2>
+            <p>
+                Estudante de Engenharia de Software na UnB (8º período ), com experiência prática em desenvolvimento full-stack. Minha jornada na tecnologia começou em 2017 e, desde então, tenho atuado em projetos que envolvem backend com **Java e Spring Boot**, e frontend com **Angular**. Participei de todo o ciclo de desenvolvimento, desde o levantamento de requisitos e prototipação no **Figma** até a implementação de testes unitários e integração de sistemas. Sou uma profissional proativa, com facilidade de aprendizado e sempre em busca de desafios que me permitam crescer.
+            </p>
+        </section>
+
+        <section id="experience" class="container">
+            <h2 class="section-title">Experiência Profissional</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Jun 2024 - Presente</div>
+                    <div class="timeline-content">
+                        <h3>Estagiária de Operações</h3>
+                        <p>Tarea</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Nov 2024 - Jan 2025</div>
+                    <div class="timeline-content">
+                        <h3>Head of Data</h3>
+                        <p>SpryteLabs (Nova York, EUA)</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Out 2023 - Out 2024</div>
+                    <div class="timeline-content">
+                        <h3>Assessora de Projetos & Membro</h3>
+                        <p>Orc'estra Gamificação (Empresa Júnior)</p>
+                    </div>
+                </div>
+                 <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Out 2022 - Jan 2023</div>
+                    <div class="timeline-content">
+                        <h3>Membro Efetivo</h3>
+                        <p>EDRA (Empresa Júnior)</p>
+                    </div>
+                </div>
             </div>
         </section>
 
-        <section id="competencias" class="skills-section">
-            <h2 class="text-center mb-1">Principais Competências</h2>
-            <p class="text-center ml-2 mr-2">Com um perfil multidisciplinar, busco abranger o máximo de conhecimento para atuar de forma crítica e eficiente em diferentes desafios. Minhas habilidades se dividem em três grandes áreas:</p>
-            
-            <div class="skill-container mt-2">
-                <div class="column programacao">
-                    <h4 class="mt-1 mb-2 text-center"><strong>Programação</strong></h4>
-                    <ul class="ml-2 mb-1">
-                        <li>Python (Data Science, IA)</li>
+        <section id="skills" class="container">
+            <h2 class="section-title">Principais Competências</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <ul>
+                        <li>Java</li>
+                        <li>Spring Boot</li>
+                        <li>Python</li>
+                        <li>APIs REST</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <ul>
+                        <li>Angular</li>
+                        <li>HTML5 & CSS3</li>
                         <li>JavaScript</li>
-                        <li>Java & C/C++</li>
+                        <li>TypeScript</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Ferramentas & Outros</h3>
+                    <ul>
+                        <li>Git & GitHub</li>
+                        <li>Figma</li>
                         <li>Power BI</li>
-                        <li>Análise de Dados com R</li>
+                        <li>Testes Unitários</li>
                     </ul>
                 </div>
-                <div class="column design">
-                    <h4 class="mt-1 mb-2 text-center"><strong>Design</strong></h4>
-                    <ul class="ml-2">
-                        <li>UX/UI Design</li>
-                        <li>UX Research</li>
-                        <li>Design Thinking</li>
-                        <li>Prototipação de Interfaces</li>
-                    </ul>
-                </div>
-                <div class="column gestao">
-                    <h4 class="mt-1 mb-2 text-center"><strong>Gestão</strong></h4>
-                    <ul class="ml-2">
-                        <li>Gestão de Projetos</li>
-                        <li>Metodologias Ágeis</li>
-                        <li>Gestão de Pessoas</li>
-                        <li>Liderança</li>
+                <div class="skill-category">
+                    <h3>Habilidades Interpessoais</h3>
+                    <ul>
+                        <li>Comunicação</li>
+                        <li>Trabalho em Equipe</li>
+                        <li>Resolução de Problemas</li>
+                        <li>Pensamento Analítico</li>
                     </ul>
                 </div>
             </div>
         </section>
 
-        <section id="projetos" class="projects-section">
-            <h2 class="mt-2 mb-1 text-center">Meus Projetos</h2>
-            <p class="text-center ml-2 mr-2">A seguir, alguns dos projetos que desenvolvi. Para ver mais, acesse meu GitHub através dos links no rodapé.</p>
-            
-            <div class="skill-container mt-2">
-                <div class="column proj1">
-                    <h4 class="mt-1 mb-2 text-center"><strong>Análise de Dados com Python e Power BI</strong></h4>
-                    <ul class="ml-2 mr-2 mb-1">
-                        <li>Explorei a integração entre notebooks Jupyter e dashboards no Power BI para criar análises dinâmicas e interativas, combinando a flexibilidade do código com a robustez visual da ferramenta.</li>
+        <section id="education" class="container">
+            <h2 class="section-title">Formação & Destaques</h2>
+            <div class="education-grid">
+                <div class="education-item">
+                    <h3>Engenharia de Software</h3>
+                    <p>Universidade de Brasília (UnB) | 2022 - 2026</p>
+                    <ul>
+                        <li>Alto Índice de Rendimento Acadêmico (IRA).</li>
+                        <li>Monitora de Cálculo 1 (2 semestres).</li>
+                        <li>Monitora de Probabilidade e Estatística.</li>
                     </ul>
                 </div>
-                <div class="column proj2">
-                    <h4 class="mt-1 mb-2 text-center"><strong>Projetos de UX/UI Design</strong></h4>
-                    <ul class="ml-2 mr-2">
-                        <li>Desenvolvi interfaces focadas na experiência do usuário, harmonizando estética e funcionalidade para criar produtos digitais intuitivos e cativantes, desde a pesquisa inicial até a prototipação.</li>
-                    </ul>
-                </div>
-                <div class="column proj3">
-                    <h4 class="mt-1 mb-2 text-center"><strong>Liderança em Projetos Acadêmicos</strong></h4>
-                    <ul class="ml-2 mr-2">
-                        <li>Apliquei conceitos de gestão de projetos em trabalhos acadêmicos, utilizando planejamento estratégico e coordenação de equipes para garantir a entrega de resultados eficazes dentro dos prazos.</li>
+                <div class="education-item">
+                    <h3>Certificados Relevantes</h3>
+                    <p>Oracle & Fundação Bradesco</p>
+                    <ul>
+                        <li>Oracle Cloud Infrastructure - AI Foundations Associate (2025).</li>
+                        <li>FluêncIA - Inteligência Artificial (2025).</li>
+                        <li>+50 certificados em tecnologia e gestão.</li>
                     </ul>
                 </div>
             </div>
         </section>
     </main>
 
-    <footer id="contato">
-        <div>
-            <h3 class="mt-1 mb-1 text-center">Entre em Contato</h3>
-            <p class="text-center"><span class="text-primary"><strong>E-mail:</strong></span> julia.takaki@gmail.com</p>
-        </div>
-        <div class="container text-center mt-2">
-            <a href="https://www.linkedin.com/in/juliatakaki/" target="_blank">
-                <img class="mt-1 ml-1 mr-1" src="img/linkedin.svg" alt="LinkedIn">
-            </a>
-            <a href="https://github.com/juliatakaki" target="_blank">
-                <img class="mt-1 ml-1 mr-1" src="img/github.svg" alt="GitHub">
-            </a>
+    <footer id="contact">
+        <div class="container">
+            <h2 class="section-title">Vamos nos conectar?</h2>
+            <p>Estou aberta a novas oportunidades e desafios. Entre em contato!</p>
+            <div class="contact-info">
+                <p><i class="fas fa-envelope"></i> <a href="mailto:julia.takaki@gmail.com">julia.takaki@gmail.com</a></p>
+                <p><i class="fas fa-phone"></i> +55 (38) 99168-0612</p>
+            </div>
+            <div class="footer-social">
+                <a href="https://www.linkedin.com/in/juliatakaki/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/juliatakaki" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+            <p class="footer-copy">&copy; 2025 | Desenvolvido por Júlia Takaki com assistência de IA.</p>
         </div>
     </footer>
-</body>
 
+</body>
 </html>
